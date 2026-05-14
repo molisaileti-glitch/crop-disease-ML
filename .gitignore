@@ -82,6 +82,25 @@ target/
 profile_default/
 ipython_config.py
 
+# Virtual environment
+venv/
+
+# Dataset — too large for GitHub
+dataset/
+
+# Kaggle credentials — never push this!
+kaggle.json
+
+# Trained model files
+*.h5
+*.keras
+
+# Environment variables
+.env
+
+# Split dataset folders — too large for GitHub
+data/
+
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
